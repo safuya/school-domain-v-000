@@ -10,4 +10,8 @@ class School
     @roster[grade] ? @roster[grade] << name : @roster[grade] = [name]
   end
 
+  def grade(grade)
+    @roster[grade]
+  end
+
 end
