@@ -18,7 +18,7 @@ class School
 
   def sort
     binding.pry
-    @roster.sort.to_h
+    @roster.sort.to_h.map { |grade, names| [grade, names.sort] }.to_h
   end
 
 end
