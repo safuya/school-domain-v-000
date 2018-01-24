@@ -15,6 +15,7 @@ class School
   end
 
   def sort
+    pry
     @roster.sort.to_h
   end
 
