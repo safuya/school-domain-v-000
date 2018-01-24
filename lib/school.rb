@@ -7,6 +7,7 @@ class School
   end
 
   def add_student(name, age)
+    @roster << name
   end
 
 end
