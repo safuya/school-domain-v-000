@@ -17,6 +17,7 @@ class School
   end
 
   def sort
+    binding.pry
     @roster.sort.to_h
   end
 
